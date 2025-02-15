@@ -2,7 +2,10 @@ package io.jenkins.plugins.autonomiq;
 
 import io.jenkins.plugins.autonomiq.service.ServiceAccess;
 import io.jenkins.plugins.autonomiq.service.ServiceException;
-import io.jenkins.plugins.autonomiq.service.types.*;
+import io.jenkins.plugins.autonomiq.service.types.ExecuteSuiteResponse;
+import io.jenkins.plugins.autonomiq.service.types.GetTestSuitesResponse;
+import io.jenkins.plugins.autonomiq.service.types.Job;
+import io.jenkins.plugins.autonomiq.service.types.UserVariable;
 import io.jenkins.plugins.autonomiq.testplan.TestItem;
 import io.jenkins.plugins.autonomiq.testplan.TestPlan;
 import io.jenkins.plugins.autonomiq.testplan.TestPlanParser;

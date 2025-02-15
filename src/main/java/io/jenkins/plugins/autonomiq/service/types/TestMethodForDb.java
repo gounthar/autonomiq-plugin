@@ -1,6 +1,5 @@
 package io.jenkins.plugins.autonomiq.service.types;
 
-import java.sql.Time;
 import java.util.Date;
 
 public class TestMethodForDb {

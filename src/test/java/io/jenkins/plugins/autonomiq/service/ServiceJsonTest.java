@@ -1,13 +1,5 @@
 package io.jenkins.plugins.autonomiq.service;
 
-import com.google.gson.reflect.TypeToken;
-import io.jenkins.plugins.autonomiq.service.types.TestCasesResponse;
-import io.jenkins.plugins.autonomiq.util.AiqUtil;
-import org.junit.Test;
-
-import java.io.*;
-import java.util.List;
-
 // public class ServiceJsonTest {
 //
 //

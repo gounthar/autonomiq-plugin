@@ -1,6 +1,5 @@
 package io.jenkins.plugins.autonomiq;
 
-import hudson.Extension;
 import hudson.util.FormValidation;
 import io.jenkins.plugins.autonomiq.service.ServiceAccess;
 import io.jenkins.plugins.autonomiq.util.AiqUtil;

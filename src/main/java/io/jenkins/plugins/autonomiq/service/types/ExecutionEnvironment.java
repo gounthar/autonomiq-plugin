@@ -1,8 +1,6 @@
 package io.jenkins.plugins.autonomiq.service.types;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 public class ExecutionEnvironment{
     public Integer accountId;

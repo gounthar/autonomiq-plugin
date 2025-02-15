@@ -3,7 +3,6 @@ package io.jenkins.plugins.autonomiq.util;
 import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
-import okio.ByteString;
 
 import java.util.LinkedList;
 

@@ -1,6 +1,6 @@
 package io.jenkins.plugins.autonomiq.util;
 
-import okhttp3.*;
+import okhttp3.WebSocket;
 
 public class WebsocketData {
     WebSocket socket;

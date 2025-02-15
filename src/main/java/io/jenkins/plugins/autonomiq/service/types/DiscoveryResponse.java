@@ -1,7 +1,5 @@
 package io.jenkins.plugins.autonomiq.service.types;
 
-import io.jenkins.plugins.autonomiq.service.ServiceAccess;
-
 import java.util.Date;
 import java.util.List;
 

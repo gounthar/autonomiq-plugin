@@ -1,8 +1,6 @@
 package io.jenkins.plugins.autonomiq.service.types;
 
-import java.util.ArrayList;
-
-public class Environment{
+public class Environment {
     public String environmentType;
     public Environment2 environment;
     
