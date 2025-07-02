@@ -9,7 +9,7 @@ import jenkins.model.Jenkins;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang.StringUtils;
 import org.kohsuke.stapler.QueryParameter;
-import org.kohsuke.stapler.StaplerRequest;
+import org.kohsuke.stapler.StaplerRequest2;
 import org.kohsuke.stapler.verb.POST;
 import hudson.util.Secret;
 
@@ -54,7 +54,7 @@ public class AutonomiqConfiguration extends GlobalConfiguration {
 
     // On save.
     @Override
-    public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
+    public boolean configure(StaplerRequest2 req, JSONObject formData) throws FormException {
         defaultAiqUrl = formData.getString(DEFAULT_AIQ_URL);
         defaultLogin = formData.getString(DEFAULT_LOGIN);
         defaultPassword = Secret.fromString(DEFAULT_PASSWORD);

@@ -33,7 +33,7 @@ import io.jenkins.plugins.autonomiq.service.types.ExecutionEnvironment;
 import io.jenkins.plugins.autonomiq.service.types.GetSauceConnect;
 import io.jenkins.plugins.autonomiq.service.types.Environment;
 
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
